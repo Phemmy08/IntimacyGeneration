@@ -1,0 +1,162 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9; /* Light background color */
+    color: #333; /* Dark text color */
+    padding: 20px;
+}
+
+/* Header styles */
+header {
+    background-color: #ffa500; /* Orange background */
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    color: white; /* White text */
+    font-size: 2.5em; /* Larger font size */
+}
+
+nav ul {
+    list-style: none; /* Remove bullet points */
+    padding: 0;
+    margin: 10px 0 0;
+}
+
+nav ul li {
+    display: inline; /* Display list items in a row */
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white; /* White links */
+    text-decoration: none; /* Remove underline */
+    font-weight: bold; /* Bold links */
+    transition: color 0.3s; /* Smooth color transition */
+}
+
+nav ul li a:hover {
+    color: #490349; /* Yellow on hover */
+    cursor: cell;
+}
+
+/* Main content styles */
+main {
+    margin-top: 20px;
+}
+
+/* Section styles */
+section {
+    background-color: white; /* White background for sections */
+    padding: 20px;
+    margin: 20px 0; /* Space between sections */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+section h2 {
+    color: #ffa500; /* Matching section header color */
+    margin-bottom: 10px; /* Space below headers */
+}
+
+section p {
+    margin-bottom: 15px; /* Space below paragraphs */
+}
+
+/* Form styles */
+form {
+    display: flex;
+    flex-direction: column; /* Stack form elements */
+}
+
+form label {
+    margin-bottom: 5px; /* Space below labels */
+    font-weight: bold; /* Bold labels */
+}
+
+form input,
+form textarea {
+    margin-bottom: 15px; /* Space below inputs */
+    padding: 10px; /* Inner padding */
+    border: 1px solid #ccc; /* Light gray border */
+    border-radius: 5px; /* Rounded corners */
+}
+
+form input:focus,
+form textarea:focus {
+    border-color: #ffa500; /* Orange border on focus */
+    outline: none; /* Remove default outline */
+}
+
+form button {
+    padding: 10px;
+    background-color:#333; /* Green background */
+    color: white; /* White text */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: 0.3s; /* Smooth background color transition */
+}
+
+
+
+/* Testimonials */
+blockquote {
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #f0f0f0; /* Light gray background */
+    border-left: 4px solid #ffa500; /* Orange left border */
+}
+
+/* Footer styles */
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    /* background-color: #ffa500; */ /* Orange background */
+    color:#ffa500; /* White text */
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    nav ul li {
+        display: block; /* Stack navigation links on smaller screens */
+        margin: 5px 0; /* Vertical spacing */
+    }
+
+    section {
+        padding: 15px; /* Adjust padding for smaller screens */
+    }
+
+    header h1 {
+        font-size: 2em; /* Smaller header font size */
+    }
+}
+
+button {
+    width: 25%;
+    font-size: 1.5rem;
+    border: none;
+    background-color: #333;
+    color: #fff;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+button:hover {
+    color: #ffa500;
+    cursor: cell;
+}
+
+button:active {
+    color: burlywood;
+}
